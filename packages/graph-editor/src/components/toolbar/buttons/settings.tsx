@@ -11,7 +11,6 @@ export const SettingsToolbarButton = () => {
       onClick={() => onClick('settings')}
       icon={<Settings />}
       data-tooltip-content="Settings"
-      data-tooltip-id="default-tooltip-id"
     />
   );
 };

@@ -9,7 +9,6 @@ export const HelpDropdown = () => (
         emphasis="low"
         icon={<ChatBubbleQuestion />}
         data-tooltip-content="Help"
-        data-tooltip-id="default-tooltip-id"
       />
     </DropdownMenu.Trigger>
     <DropdownMenu.Portal>

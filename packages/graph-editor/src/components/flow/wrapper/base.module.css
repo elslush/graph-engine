@@ -11,10 +11,10 @@
 
 .nodeWrapper {
   position: relative;
-  box-shadow: var(--shadows-contextMenu);
+  border: var(--component-border-width-lg) solid var(--stroke-subtle);
+  box-shadow: var(--elevation-medium);
   border-radius: var(--component-radii-md);
   background: var(--color-neutral-canvas-default-bg);
-  border: 2px solid var(--stroke-subtle);
   flex: 1;
   display: flex;
 }

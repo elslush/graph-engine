@@ -2,7 +2,6 @@
     color: var(--color-neutral-canvas-default-fg-default);
     border: none;
     font-size: var(--fontSizes-small);
-    box-shadow: var(--shadows-focus);
 }
 
 

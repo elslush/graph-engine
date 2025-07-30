@@ -27,7 +27,7 @@ export const PassthroughNode = (args) => {
         borderRadius: 'var(--component-radii-md)',
         padding: 'var(--component-spacing-sm)',
         border: '2px solid var(--colors-nodeBorder)',
-        boxShadow: 'var(--shadows-contextMenu)',
+        boxShadow: 'var(--elevation-medium)',
       }}
     >
       {node && (

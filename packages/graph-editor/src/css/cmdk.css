@@ -23,8 +23,8 @@
 [cmdk-root] {
     background-color: var(--color-neutral-canvas-default-bg);
     border-radius: var(--component-radii-md);
-    box-shadow: var(--shadows-contextMenu);
-    border: 1px solid var(--stroke-subtle);
+    box-shadow: var(--elevation-high);
+    border: var(--component-border-width-sm) solid var(--stroke-subtle);
     font-size: var(--fontSizes-small);
     color: var(--color-neutral-canvas-default-fg-default);
     width: 100%;

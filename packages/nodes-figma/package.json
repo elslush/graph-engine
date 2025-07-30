@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@tokens-studio/types": "^0.5.1",
-    "@tokens-studio/ui": "^3.0.0",
+    "@tokens-studio/ui": "^3.0.1",
     "dot-prop": "^8.0.2"
   },
   "peerDependencies": {

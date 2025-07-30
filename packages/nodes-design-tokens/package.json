@@ -38,7 +38,7 @@
   "dependencies": {
     "@adobe/leonardo-contrast-colors": "^1.0.0",
     "@tokens-studio/types": "^0.5.1",
-    "@tokens-studio/ui": "^3.0.0",
+    "@tokens-studio/ui": "^3.0.1",
     "colorjs.io": "^0.5.2",
     "dot-prop": "^8.0.2",
     "lodash.orderby": "^4.6.0",

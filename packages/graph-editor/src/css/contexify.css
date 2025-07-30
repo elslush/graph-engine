@@ -1,7 +1,7 @@
 @import url('react-contexify/ReactContexify.css');
 .contexify {
     --contexify-menu-bgColor: var(--color-neutral-canvas-default-bg);
-    --contexify-separator-color: var(--color-neutral-stroke-subtle);
+    --contexify-separator-color: var(--stroke-subtle);
     --contexify-item-color: var(--color-neutral-canvas-default-fg-default);
     --contexify-activeItem-color: var(--color-neutral-surface-ghost-idle-fg-default);
     --contexify-activeItem-bgColor: var(--color-neutral-surface-ghost-idle-bg);

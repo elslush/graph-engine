@@ -15,11 +15,12 @@ import { ErrorBoundaryContent } from '@/components/ErrorBoundaryContent.js';
 import { ExternalLoaderProvider } from '@/context/ExternalLoaderContext.js';
 import { FindDialog } from '@/components/dialogs/findDialog.js';
 import { GraphEditor } from './graphEditor.js';
-import { IconButton, Stack, Tooltip } from '@tokens-studio/ui';
+import { IconButton, Stack, TooltipContainer } from '@tokens-studio/ui';
 import { Inputsheet } from '@/components/panels/inputs/index.js';
 import { MAIN_GRAPH_ID } from '@/constants.js';
 import { MenuBar, defaultMenuDataFactory } from '@/components/menubar/index.js';
 import { OutputSheet } from '@/components/panels/output/index.js';
+import { Toaster } from '@tokens-studio/ui/Toast.js';
 import { dockerSelector } from '@/redux/selectors/refs.js';
 import { useDispatch } from '@/hooks/useDispatch.js';
 import { useRegisterRef } from '@/hooks/useRegisterRef.js';
@@ -346,17 +347,17 @@ export const LayoutController = React.forwardRef<
         style={{ height: '100%' }}
       >
         {props.showMenu && <MenuBar menu={menuItems} />}
-        <Tooltip.Provider>
-          <DockLayout
-            ref={registerDocker}
-            defaultLayout={defaultLayout as LayoutData}
-            groups={groups}
-            loadTab={loadTab}
-            style={{ flex: 1 }}
-            onLayoutChange={onLayoutChange}
-          />
-          <FindDialog />
-        </Tooltip.Provider>
+        <DockLayout
+          ref={registerDocker}
+          defaultLayout={defaultLayout as LayoutData}
+          groups={groups}
+          loadTab={loadTab}
+          style={{ flex: 1 }}
+          onLayoutChange={onLayoutChange}
+        />
+        <FindDialog />
+        <TooltipContainer id="default-tooltip-id" />
+        <Toaster />
       </Stack>
     </ExternalLoaderProvider>
   );

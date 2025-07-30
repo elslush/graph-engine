@@ -13,7 +13,7 @@
     .graph-editor {
         --colors-pageBg: var(--color-neutral-canvas-default-bg);
         --colors-nodeBg: var(--color-neutral-canvas-default-bg);
-        --colors-nodeBorder: var(--color-neutral-stroke-subtle);
+        --colors-nodeBorder: var(--color-subtle);
         --colors-graphBg: var(--color-neutral-canvas-minimal-bg);
         --colors-panelBg: var(--color-neutral-canvas-default-bg);
     }
@@ -35,13 +35,13 @@
 }
 
 .dock-panel.dock-style-main .dock-bar {
-    border-bottom-color: var(--color-neutral-stroke-subtle);
+    border-bottom-color: var(--stroke-subtle);
 }
 
 .dock-content-holder {
     scrollbar-color: var(--color-neutral-canvas-subtle-bg) transparent;
     scrollbar-width: thin;
-    border-bottom: var(--component-border-width-md) solid var(--color-neutral-stroke-subtle);
+    border-bottom: var(--component-border-width-md) solid var(--stroke-subtle);
 }
 
 .dock-top .dock-ink-bar {

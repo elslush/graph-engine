@@ -2,7 +2,6 @@ import { Stack } from '@tokens-studio/ui/Stack.js';
 import { Text } from '@tokens-studio/ui/Text.js';
 import { observer } from 'mobx-react-lite';
 import React from 'react';
-import clsx from 'clsx';
 import styles from './panel.module.css';
 import type DimensionScale from './node.js';
 
@@ -23,7 +22,8 @@ export const DimensionScalePreview = observer(
 						<div className={styles.item}>
 							<Text size='small'>{token.value}</Text>
 							<div
-								className={clsx(styles.box, 'ts-surface')}
+								className={styles.box}
+								data-container='surface'
 								data-appearance='accent'
 								data-emphasis='subtle'
 								style={{
@@ -37,7 +37,8 @@ export const DimensionScalePreview = observer(
 				<div className={styles.layered}>
 					{dimensionTokens.map(token => (
 						<div
-							className={clsx(styles.item, 'ts-surface')}
+							className={styles.item}
+							data-container='surface'
 							data-appearance='accent'
 							data-emphasis='ghost'
 							style={{

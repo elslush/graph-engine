@@ -1,7 +1,7 @@
 .graphContainer {
   flex: 1;
   border-radius: var(--component-radii-md);
-  border-color: var(--color-neutral-stroke-subtle);
+  border-color: var(--stroke-subtle);
   padding: var(--component-spacing-lg);
 }
 

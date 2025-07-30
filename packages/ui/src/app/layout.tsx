@@ -1,10 +1,10 @@
 import '@/styles/styles.css';
 import '@tokens-studio/graph-editor/index.css';
 
-import '@tokens-studio/tokens/css/ts-theme-dark.css';
-import '@tokens-studio/tokens/css/ts-theme-light.css';
+import '@tokens-studio/tokens/css/dark.css';
+import '@tokens-studio/tokens/css/light.css';
 
-import '@tokens-studio/tokens/css/base.css';
+import '@tokens-studio/ui/css/base.css';
 import '@tokens-studio/ui/css/normalize.css';
 import '@tokens-studio/ui/css/utils.css';
 

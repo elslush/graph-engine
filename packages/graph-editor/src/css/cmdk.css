@@ -24,7 +24,7 @@
     background-color: var(--color-neutral-canvas-default-bg);
     border-radius: var(--component-radii-md);
     box-shadow: var(--shadows-contextMenu);
-    border: 1px solid var(--color-neutral-stroke-subtle);
+    border: 1px solid var(--stroke-subtle);
     font-size: var(--fontSizes-small);
     color: var(--color-neutral-canvas-default-fg-default);
     width: 100%;
@@ -68,7 +68,7 @@
     width: 1px;
     border: 0;
     margin-right: 8px;
-    background: var(--color-neutral-stroke-default);
+    background: var(--stroke-default);
 }
 
 [cmdk-framer-right] {

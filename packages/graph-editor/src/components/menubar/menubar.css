@@ -12,7 +12,7 @@
     background-color: var(--color-neutral-canvas-minimal-bg);
     color: var(--color-neutral-canvas-default-fg-default);
     border-radius: 0;
-    border-bottom: 1px solid var(--color-neutral-stroke-subtle);
+    border-bottom: 1px solid var(--stroke-subtle);
     box-shadow: none;
 
 }
@@ -62,5 +62,5 @@
 }
 
 .rc-menu-item-divider{
-    background-color: var(--color-neutral-stroke-subtle);
+    background-color: var(--stroke-subtle);
 }

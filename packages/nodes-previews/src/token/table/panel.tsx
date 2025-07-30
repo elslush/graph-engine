@@ -21,7 +21,7 @@ export const TokenTablePreview = observer(
 				<table className={styles.table}>
 					<thead>
 						<tr
-							className='ts-canvas'
+							data-container='canvas'
 							data-appearance='neutral'
 							data-emphasis='subtle'
 						>
@@ -34,7 +34,7 @@ export const TokenTablePreview = observer(
 						{tokens.map(token => (
 							<tr
 								key={token.name}
-								className='ts-surface'
+								data-container='surface'
 								data-appearance='neutral'
 								data-emphasis='ghost'
 								data-interactive

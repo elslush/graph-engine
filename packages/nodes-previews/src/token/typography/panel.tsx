@@ -1,6 +1,5 @@
 import { observer } from 'mobx-react-lite';
 import React, { useMemo } from 'react';
-import clsx from 'clsx';
 import styles from './panel.module.css';
 import type TypographyNode from './node.js';
 
@@ -32,7 +31,8 @@ const getTypographyStyle = token => {
 
 const FontFamilyPreview = ({ fontFamily, weights }) => (
 	<div
-		className={clsx(styles.fontPreview, 'ts-canvas')}
+		className={styles.fontPreview}
+		data-container='canvas'
 		data-appearance='neutral'
 		data-emphasis='subtle'
 	>

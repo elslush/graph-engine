@@ -6,7 +6,7 @@
 }
 
 .dock-top .dock-bar {
-    border-bottom-color: var(--color-neutral-stroke-subtle);
+    border-bottom-color: var(--stroke-subtle);
     padding-left: 0px;
 
 }
@@ -61,7 +61,7 @@
 }
 
 .dock-panel.dock-style-main .dock-bar {
-    border-bottom-color: var(--color-neutral-stroke-subtle);
+    border-bottom-color: var(--stroke-subtle);
 }
 
 .drag-initiator {

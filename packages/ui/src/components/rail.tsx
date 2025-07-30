@@ -103,7 +103,7 @@ export const Rail = () => {
 			direction='column'
 			style={{
 				background: 'var(--color-neutral-canvas-minimal-bg)',
-				borderRight: '1px solid var(--color-neutral-stroke-default)',
+				borderRight: '1px solid var(--stroke-default)',
 				color: 'var(--color-neutral-canvas-minimal-fg-default)',
 				height: '100%',
 				padding:

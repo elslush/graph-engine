@@ -3,7 +3,7 @@
 }
 
 .timeline-editor-time-unit {
-    border-right: 1px solid var(--color-neutral-stroke-subtle);
+    border-right: 1px solid var(--stroke-subtle);
 }
 
 .timeline-editor-action {

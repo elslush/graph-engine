@@ -24,6 +24,6 @@
 
 .separator {
   width: 1px;
-  background-color: var(--color-neutral-stroke-subtle);
+  background-color: var(--stroke-subtle);
   margin: 0 var(--component-spacing-2xs);
 }

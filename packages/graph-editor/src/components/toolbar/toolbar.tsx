@@ -6,7 +6,16 @@ import styles from './toolbar.module.css';
 
 export const GraphToolbar = () => {
   const toolbarButtons = useSelector(ToolBarButtonsSelector);
-  return <Toolbar.Root className={styles.root}>{toolbarButtons}</Toolbar.Root>;
+  return (
+    <Toolbar.Root
+      className={styles.root}
+      data-container="canvas"
+      data-appearance="neutral"
+      data-emphasis="default"
+    >
+      {toolbarButtons}
+    </Toolbar.Root>
+  );
 };
 
 export const ToolbarSeparator = ({ className = '', ...props }) => (

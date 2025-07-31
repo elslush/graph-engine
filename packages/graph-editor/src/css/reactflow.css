@@ -21,11 +21,11 @@
 }
 .react-flow__node.selectable.selected,
 .react-flow__node.selectable:focus {
-    --nodeBorderColor: var(--color-accent-stroke-subtle);
+    --nodeBorderColor: var(--stroke-default);
     --nodeBgColor: var(--colors-nodeBg);
     --nodeTextColor: var(--color-neutral-canvas-default-fg-default);
-    outline: 2px solid var(--color-neutral-canvas-default-fg-default);
-    outline-offset: 5px;
+    outline: 2px solid var(--color-accent-base);
+    outline-offset: 8px;
     border-radius: var(--radii-medium, 8px);
 }
 

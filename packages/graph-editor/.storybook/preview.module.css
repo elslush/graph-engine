@@ -16,7 +16,7 @@
 }
 
 .themeBlock.left {
-  border-right: 1px solid var(--color-neutral-stroke-subtle);
+  border-right: 1px solid var(--stroke-subtle);
   right: 50%;
   left: 0;
 }

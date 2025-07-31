@@ -4,10 +4,9 @@
   gap: var(--component-spacing-xs);
   width: auto;
   min-width: max-content;
+  border: var(--component-border-width-sm) solid var(--stroke-subtle);
   border-radius: var(--component-radii-lg);
-  background-color: var(--color-neutral-canvas-default-bg);
-  color: var(--color-neutral-canvas-subtle-fg-default);
-  box-shadow: 0 2px 10px var(--color-neutral-800);
+  box-shadow: var(--elevation-medium);
   pointer-events: auto;
 }
 
@@ -24,6 +23,6 @@
 
 .separator {
   width: 1px;
-  background-color: var(--color-neutral-stroke-subtle);
+  background-color: var(--stroke-subtle);
   margin: 0 var(--component-spacing-2xs);
 }

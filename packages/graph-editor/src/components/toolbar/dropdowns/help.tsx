@@ -1,14 +1,16 @@
-import { DropdownMenu, IconButton, Tooltip } from '@tokens-studio/ui';
+import { DropdownMenu, IconButton } from '@tokens-studio/ui';
 import ChatBubbleQuestion from '@tokens-studio/icons/ChatBubbleQuestion.js';
 import React from 'react';
 
 export const HelpDropdown = () => (
   <DropdownMenu>
-    <Tooltip label="Help" side="bottom">
-      <DropdownMenu.Trigger asChild>
-        <IconButton emphasis="low" icon={<ChatBubbleQuestion />} />
-      </DropdownMenu.Trigger>
-    </Tooltip>
+    <DropdownMenu.Trigger asChild>
+      <IconButton
+        emphasis="low"
+        icon={<ChatBubbleQuestion />}
+        data-tooltip-content="Help"
+      />
+    </DropdownMenu.Trigger>
     <DropdownMenu.Portal>
       <DropdownMenu.Content style={{ minWidth: '200px' }}>
         <a

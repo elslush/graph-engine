@@ -57,7 +57,7 @@
   height: var(--handle-core-size);
   border: var(--handle-border-width) solid var(--handle-color);
   border-radius: var(--component-radii-pill);
-  box-shadow: var(--shadows-small);
+  box-shadow: var(--elevation-small);
   display: grid;
   place-items: center;
 

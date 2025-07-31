@@ -10,7 +10,7 @@ export const PreviewColor = ({ value }) => {
 		<div
 			style={{
 				border: '1px solid',
-				borderColor: 'var(--color-neutral-stroke-subtle)',
+				borderColor: 'var(--stroke-subtle)',
 				borderRadius: 'var(--component-radii-md)',
 				overflow: 'hidden',
 				display: 'flex',

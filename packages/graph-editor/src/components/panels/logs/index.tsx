@@ -64,7 +64,7 @@ export function LogsPanel() {
             <div
               key={index}
               style={{
-                border: '1px solid var(--color-neutral-stroke-subtle)',
+                border: '1px solid var(--stroke-subtle)',
                 padding: 'var(--component-spacing-sm)',
               }}
             >

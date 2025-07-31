@@ -44,11 +44,11 @@
 
 .hoverCardContent {
   border-radius: var(--component-radii-md);
-  border: 1px solid var(--color-neutral-stroke-subtle);
+  border: var(--component-border-width-sm) solid var(--stroke-subtle);
   padding: var(--component-spacing-lg);
   width: 300px;
   background-color: var(--color-neutral-canvas-minimal-bg);
-  box-shadow: var(--shadows-contextMenu);
+  box-shadow: var(--elevation-medium);
   animation-duration: 200ms;
   animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform, opacity;

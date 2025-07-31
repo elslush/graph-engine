@@ -1,7 +1,6 @@
 import { Text } from '@tokens-studio/ui/Text.js';
 import { observer } from 'mobx-react-lite';
 import React, { useMemo } from 'react';
-import clsx from 'clsx';
 import styles from './panel.module.css';
 import type PaletteNode from './node.js';
 
@@ -25,7 +24,8 @@ interface ColorSwatchProps {
 
 const ColorSwatch: React.FC<ColorSwatchProps> = ({ name, value }) => (
 	<div
-		className={clsx(styles.swatch, 'ts-canvas')}
+		className={styles.swatch}
+		data-container='canvas'
 		data-appearance='neutral'
 		data-emphasis='subtle'
 	>
@@ -102,7 +102,12 @@ export const PalettePreview = observer(
 		const tokenSet = (inputs.tokenSet?.value as TokenSet) || {};
 
 		return (
-			<div className={clsx(styles.container, 'ts-canvas')}>
+			<div
+				className={styles.container}
+				data-container='canvas'
+				data-appearance='neutral'
+				data-emphasis='default'
+			>
 				{Object.entries(tokenSet).map(([name, tokens]) => (
 					<ColorGroup key={name} name={name} tokens={tokens} />
 				))}

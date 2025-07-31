@@ -4,10 +4,10 @@
   border-radius: var(--component-radii-sm);
   width: 26px;
   height: 26px;
-  outline: 1px solid var(--color-neutral-stroke-default);
+  outline: 1px solid var(--stroke-default);
   flex-shrink: 0;
 }
 
 .colorButton:hover {
-  outline: 1px solid var(--color-neutral-stroke-default);
+  outline: 1px solid var(--stroke-default);
 }

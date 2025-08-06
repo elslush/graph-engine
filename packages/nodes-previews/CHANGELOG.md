@@ -1,5 +1,11 @@
 # @tokens-studio/graph-engine-nodes-preview
 
+## 1.1.1
+
+### Patch Changes
+
+- 82e2e96: Update to the latest DS version
+
 ## 1.1.0
 
 ### Minor Changes

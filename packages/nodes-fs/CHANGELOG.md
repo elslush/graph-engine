@@ -1,5 +1,11 @@
 # @tokens-studio/graph-engine-nodes-fs
 
+## 6.0.2
+
+### Patch Changes
+
+- 82e2e96: Update to the latest DS version
+
 ## 6.0.1
 
 ### Patch Changes

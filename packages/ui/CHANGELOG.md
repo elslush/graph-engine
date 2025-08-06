@@ -1,5 +1,16 @@
 # @tokens-studio/graph-engine-ui
 
+## 3.3.4
+
+### Patch Changes
+
+- 82e2e96: Update to the latest DS version
+- Updated dependencies [82e2e96]
+  - @tokens-studio/graph-engine-nodes-design-tokens@7.2.2
+  - @tokens-studio/graph-engine-nodes-preview@1.1.1
+  - @tokens-studio/graph-editor@4.4.3
+  - @tokens-studio/graph-engine-nodes-figma@2.0.2
+
 ## 3.3.3
 
 ### Patch Changes

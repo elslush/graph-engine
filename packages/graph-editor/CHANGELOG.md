@@ -1,5 +1,11 @@
 # @tokens-studio/graph-editor
 
+## 4.4.3
+
+### Patch Changes
+
+- 82e2e96: Update to the latest DS version
+
 ## 4.4.2
 
 ### Patch Changes

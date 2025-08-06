@@ -31,7 +31,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@tokens-studio/ui": "^3.0.1",
+    "@tokens-studio/ui": "^3.0.4",
     "mobx-react-lite": "^4.0.5"
   },
   "peerDependencies": {

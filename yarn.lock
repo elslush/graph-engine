@@ -6133,10 +6133,10 @@
   dependencies:
     deepmerge-ts "^7.0.3"
 
-"@tokens-studio/tokens@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@tokens-studio/tokens/-/tokens-0.3.9.tgz#8feb32d2d2b881fb019dd96e7bc29e9397d9004a"
-  integrity sha512-yk2dBvrR1o35CQhHeGdtS2TdLImHRTf9rBWm2qYssG059P9eHfriKLCgASjuB+w8kp8jHohqZZZeZeMn3DpilQ==
+"@tokens-studio/tokens@^0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@tokens-studio/tokens/-/tokens-0.3.11.tgz#17c4a1817e0890d273a7d94ad80cf32bf05d4cac"
+  integrity sha512-NHy3swYp6BUHl67L3Ny/Wc5umCLbxkLi5VTSnt5KsaeOc0nYB2VH3ps9AdKWsDwUqAqcD18B+tRyiZhi1lWA2w==
   dependencies:
     deepmerge-ts "^7.0.3"
 
@@ -6169,10 +6169,10 @@
     clsx "^2.1.1"
     react-tooltip "^5.28.0"
 
-"@tokens-studio/ui@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@tokens-studio/ui/-/ui-3.0.1.tgz#fe1daf4b4e3ab927575c851912aa3a36d6d93819"
-  integrity sha512-vY6SiCK258D36Pj6Oz7uAh4NulYFeU0aQWSNl6KIXkdeDcryr2oNE558gZNIut+8+sjVHc0DuSSwzulvsdynGA==
+"@tokens-studio/ui@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@tokens-studio/ui/-/ui-3.0.4.tgz#a7e3d924cea391f0e1ea20c7663831de8608b922"
+  integrity sha512-sqGTidzVu5xMJEBVFZIyhE65hv15N8Z9vfhcL77GBj2y62aKdcbJ2qgOy7q5A690OP9Kf5SzC97bgmkN37D7GA==
   dependencies:
     "@radix-ui/react-accordion" "^1.1.2"
     "@radix-ui/react-avatar" "^1.0.2"

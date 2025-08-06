@@ -50,11 +50,11 @@ const RailItem = ({ icon, label, link }: RailItem) => {
 };
 
 const ThemeToggle = () => {
-	const [isDark, setIsDark] = useState(false);
+	const [isDark, setIsDark] = useState(true);
 
 	useEffect(() => {
 		// Check initial theme on mount
-		const isDarkMode = document.body.classList.contains('ts-theme-dark');
+		const isDarkMode = document.body.getAttribute('data-theme') === 'dark';
 		setIsDark(isDarkMode);
 	}, []);
 
@@ -62,14 +62,11 @@ const ThemeToggle = () => {
 		const newIsDark = !isDark;
 		setIsDark(newIsDark);
 
-		document.body.classList.remove(
-			newIsDark ? 'ts-theme-light' : 'ts-theme-dark'
-		);
-		document.body.classList.add(newIsDark ? 'ts-theme-dark' : 'ts-theme-light');
+		document.body.setAttribute('data-theme', newIsDark ? 'dark' : 'light');
 	};
 
 	return (
-		<Tooltip label={isDark ? 'Light Mode' : 'Dark Mode'}>
+		<Tooltip label={isDark ? 'Dark Mode' : 'Light Mode'}>
 			<IconButton
 				emphasis='low'
 				style={{ padding: 'var(--component-spacing-sm)' }}

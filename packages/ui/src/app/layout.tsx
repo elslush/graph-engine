@@ -92,7 +92,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className='ts-theme-dark graph-editor'>
+			<body className='graph-editor' data-theme='light'>
 				<Contexts>{children}</Contexts>
 			</body>
 		</html>

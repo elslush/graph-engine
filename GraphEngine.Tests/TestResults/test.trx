@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2dbd0358-4558-4556-a0fb-3fc86d2a279f" name="@ai1 2025-08-15 18:23:13" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-15T18:23:13.5407178+00:00" queuing="2025-08-15T18:23:13.5407178+00:00" start="2025-08-15T18:23:13.0691281+00:00" finish="2025-08-15T18:23:13.5781454+00:00" />
+  <TestSettings name="default" id="e2faaba0-0a0f-4358-9f02-f2ab53b477b4">
+    <Deployment runDeploymentRoot="_ai1_2025-08-15_18_23_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="401a2148-2702-464a-a607-dcd75de1628c" testId="1d345ca2-e3bb-52f6-f7d7-bc74d1a8f847" testName="GraphEngine.Tests.ProgrammaticInputOutputTests.Input_SetValue_DoesNotStore_WhenConnectedNonVariadic_UnlessForced" computerName="ai1" duration="00:00:00.0013309" startTime="2025-08-15T18:23:13.5171093+00:00" endTime="2025-08-15T18:23:13.5171093+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="401a2148-2702-464a-a607-dcd75de1628c" />
+    <UnitTestResult executionId="1462489f-bf5b-4ca7-b9d4-0bfdea9b5023" testId="265fe97d-5a8d-995d-b08c-d4bd233e849d" testName="GraphEngine.Tests.ProgrammaticNodeTests.Deserialize_Restores_Inputs_And_Values" computerName="ai1" duration="00:00:00.0358146" startTime="2025-08-15T18:23:13.5221047+00:00" endTime="2025-08-15T18:23:13.5221048+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1462489f-bf5b-4ca7-b9d4-0bfdea9b5023">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Values differ
+Expected: hello
+Actual:   hello</Message>
+          <StackTrace>   at GraphEngine.Tests.ProgrammaticNodeTests.Deserialize_Restores_Inputs_And_Values() in /home/ai/CodexTest/graph-engine/GraphEngine.Tests/ProgrammaticNodeTests.cs:line 74
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cb1bd78-1346-4306-9b96-ead67208fd52" testId="caa3198e-327a-b114-866b-42f715d40322" testName="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Serialize_Deserialize_Roundtrip_PreservesData" computerName="ai1" duration="00:00:00.0033767" startTime="2025-08-15T18:23:13.5172720+00:00" endTime="2025-08-15T18:23:13.5172720+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cb1bd78-1346-4306-9b96-ead67208fd52" />
+    <UnitTestResult executionId="8f72d14f-3c46-4062-8d1d-beba1ff164f0" testId="30d081b3-a0c6-c5a1-7a9d-87f45cd0019c" testName="GraphEngine.Tests.ProgrammaticPortTests.SetType_RaisesPropertyChanged_ForTypeAndDynamicType" computerName="ai1" duration="00:00:00.0075626" startTime="2025-08-15T18:23:13.4878581+00:00" endTime="2025-08-15T18:23:13.4878583+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f72d14f-3c46-4062-8d1d-beba1ff164f0" />
+    <UnitTestResult executionId="37a9ec61-488d-478e-82b6-6e9be2dfb1d9" testId="3294b3d2-0fdc-0d00-56db-59b8aa8761ce" testName="GraphEngine.Tests.ProgrammaticNodeTests.AddInput_AddOutput_CreatesPorts" computerName="ai1" duration="00:00:00.0002920" startTime="2025-08-15T18:23:13.5234980+00:00" endTime="2025-08-15T18:23:13.5234980+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37a9ec61-488d-478e-82b6-6e9be2dfb1d9" />
+    <UnitTestResult executionId="cc062f0b-0f82-48bb-90fc-d76d4ba29cdf" testId="052da005-cf71-9e0b-1aef-20281836ba49" testName="GraphEngine.Tests.ProgrammaticInputOutputTests.Input_Reset_ClearsDynamicType_And_SetsDefault" computerName="ai1" duration="00:00:00.0004559" startTime="2025-08-15T18:23:13.5171469+00:00" endTime="2025-08-15T18:23:13.5171469+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc062f0b-0f82-48bb-90fc-d76d4ba29cdf" />
+    <UnitTestResult executionId="13a5328c-5f52-4d9d-9010-e62e54f8cf2d" testId="b11dd8a6-014a-648c-c6d3-decc6c2e5531" testName="GraphEngine.Tests.ProgrammaticPortTests.EdgeTracking_AttachDetach_Works" computerName="ai1" duration="00:00:00.0021294" startTime="2025-08-15T18:23:13.4882365+00:00" endTime="2025-08-15T18:23:13.4882365+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a5328c-5f52-4d9d-9010-e62e54f8cf2d" />
+    <UnitTestResult executionId="6c000892-d342-41da-ac40-a90ac1d1b0b8" testId="2fd2b00e-e302-c04a-7f5f-1041b8f2c7dc" testName="GraphEngine.Tests.UnitTest1.Test1" computerName="ai1" duration="00:00:00.0021530" startTime="2025-08-15T18:23:13.4847904+00:00" endTime="2025-08-15T18:23:13.4848077+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c000892-d342-41da-ac40-a90ac1d1b0b8" />
+    <UnitTestResult executionId="03f4fc66-3891-45c4-9ff2-f64ca00a22a1" testId="e9148211-2ba7-d27c-780e-e357d9d56887" testName="GraphEngine.Tests.ProgrammaticPortTests.SettingValue_RaisesPropertyChanged" computerName="ai1" duration="00:00:00.0018994" startTime="2025-08-15T18:23:13.4898706+00:00" endTime="2025-08-15T18:23:13.4898706+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03f4fc66-3891-45c4-9ff2-f64ca00a22a1" />
+    <UnitTestResult executionId="c3b156e4-6a98-474b-b48b-62dbe15bc88f" testId="d02b2b47-5704-0b56-5716-cae1f17e833d" testName="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Deserialize_GeneratesId_WhenMissing" computerName="ai1" duration="00:00:00.0056919" startTime="2025-08-15T18:23:13.5172347+00:00" endTime="2025-08-15T18:23:13.5172348+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3b156e4-6a98-474b-b48b-62dbe15bc88f" />
+    <UnitTestResult executionId="8583c8a8-d088-4e56-aa99-212e35c7311b" testId="8e60fe04-481d-9bb0-2bf7-785c17358d8c" testName="GraphEngine.Tests.ProgrammaticInputOutputTests.Variadic_Input_DynamicType_Null_WhenDifferentTypes" computerName="ai1" duration="00:00:00.0008185" startTime="2025-08-15T18:23:13.5170741+00:00" endTime="2025-08-15T18:23:13.5170741+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8583c8a8-d088-4e56-aa99-212e35c7311b" />
+    <UnitTestResult executionId="ca4d90ce-addf-4810-ace0-1110b87e3b16" testId="a362390a-3845-2154-795a-1ed8bb51e332" testName="GraphEngine.Tests.ProgrammaticNodeTests.Run_Captures_Error_And_Duration" computerName="ai1" duration="00:00:00.0012916" startTime="2025-08-15T18:23:13.5235302+00:00" endTime="2025-08-15T18:23:13.5235302+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca4d90ce-addf-4810-ace0-1110b87e3b16" />
+    <UnitTestResult executionId="d9ce0f07-3293-488d-8bfd-94b7eeac7afa" testId="e394b33b-cc8c-e351-c8f4-944ed5782522" testName="GraphEngine.Tests.ProgrammaticPortTests.SetVisible_RaisesPropertyChanged" computerName="ai1" duration="00:00:00.0004345" startTime="2025-08-15T18:23:13.4882019+00:00" endTime="2025-08-15T18:23:13.4882019+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9ce0f07-3293-488d-8bfd-94b7eeac7afa" />
+    <UnitTestResult executionId="8557f30e-6956-4f86-be16-9ea3b15a6bfd" testId="abab111d-d4eb-d080-6627-e340c90ae98c" testName="GraphEngine.Tests.ProgrammaticInputOutputTests.Output_Set_Updates_Value_And_DynamicType" computerName="ai1" duration="00:00:00.0001019" startTime="2025-08-15T18:23:13.5171845+00:00" endTime="2025-08-15T18:23:13.5171845+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8557f30e-6956-4f86-be16-9ea3b15a6bfd" />
+    <UnitTestResult executionId="b5de55b9-b9e7-48a8-bd7f-5276a9607d97" testId="798bef3d-c877-e1e4-ae97-7ae469e3d724" testName="GraphEngine.Tests.ProgrammaticPortTests.SettingValue_Same_DoesNotRaise" computerName="ai1" duration="00:00:00.0008879" startTime="2025-08-15T18:23:13.4908461+00:00" endTime="2025-08-15T18:23:13.4908461+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5de55b9-b9e7-48a8-bd7f-5276a9607d97" />
+    <UnitTestResult executionId="9f3758db-5c24-4387-9b0c-6f4de210a5a6" testId="81135ee9-d7d9-ade3-b47e-2c4bb5131764" testName="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Serialize_Omits_Empty_Annotations" computerName="ai1" duration="00:00:00.0300617" startTime="2025-08-15T18:23:13.5172068+00:00" endTime="2025-08-15T18:23:13.5172068+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f3758db-5c24-4387-9b0c-6f4de210a5a6" />
+    <UnitTestResult executionId="d770e904-4263-49ae-93a9-3ebfcdcce748" testId="d715eff0-9264-e1a6-2755-2160d06ec646" testName="GraphEngine.Tests.ProgrammaticInputOutputTests.Variadic_Input_Remains_NonArray_WhenAllSame_As_Static" computerName="ai1" duration="00:00:00.0212702" startTime="2025-08-15T18:23:13.5170416+00:00" endTime="2025-08-15T18:23:13.5170416+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d770e904-4263-49ae-93a9-3ebfcdcce748" />
+    <UnitTestResult executionId="4121eefd-21c9-4b49-87b9-d46ae573fd4f" testId="81cc051a-1ae1-bbf6-19ed-0b52bdcf3f75" testName="GraphEngine.Tests.ProgrammaticPortTests.SetVisible_SameValue_DoesNotRaise" computerName="ai1" duration="00:00:00.0001516" startTime="2025-08-15T18:23:13.5168570+00:00" endTime="2025-08-15T18:23:13.5168571+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4121eefd-21c9-4b49-87b9-d46ae573fd4f" />
+    <UnitTestResult executionId="eb5640ca-0a12-4ccd-8009-b66fd16d8baa" testId="e87167bf-0b61-c587-ad28-0993c0bd7d5d" testName="GraphEngine.Tests.ProgrammaticNodeTests.Serialize_Includes_Value_For_NonConnected_Input" computerName="ai1" duration="00:00:00.0030092" startTime="2025-08-15T18:23:13.5234475+00:00" endTime="2025-08-15T18:23:13.5234476+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb5640ca-0a12-4ccd-8009-b66fd16d8baa" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticInputOutputTests.Input_Reset_ClearsDynamicType_And_SetsDefault" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="052da005-cf71-9e0b-1aef-20281836ba49">
+      <Execution id="cc062f0b-0f82-48bb-90fc-d76d4ba29cdf" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticInputOutputTests" name="Input_Reset_ClearsDynamicType_And_SetsDefault" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticInputOutputTests.Input_SetValue_DoesNotStore_WhenConnectedNonVariadic_UnlessForced" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="1d345ca2-e3bb-52f6-f7d7-bc74d1a8f847">
+      <Execution id="401a2148-2702-464a-a607-dcd75de1628c" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticInputOutputTests" name="Input_SetValue_DoesNotStore_WhenConnectedNonVariadic_UnlessForced" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticNodeTests.Deserialize_Restores_Inputs_And_Values" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="265fe97d-5a8d-995d-b08c-d4bd233e849d">
+      <Execution id="1462489f-bf5b-4ca7-b9d4-0bfdea9b5023" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticNodeTests" name="Deserialize_Restores_Inputs_And_Values" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.EdgeTracking_AttachDetach_Works" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="b11dd8a6-014a-648c-c6d3-decc6c2e5531">
+      <Execution id="13a5328c-5f52-4d9d-9010-e62e54f8cf2d" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="EdgeTracking_AttachDetach_Works" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticInputOutputTests.Variadic_Input_Remains_NonArray_WhenAllSame_As_Static" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="d715eff0-9264-e1a6-2755-2160d06ec646">
+      <Execution id="d770e904-4263-49ae-93a9-3ebfcdcce748" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticInputOutputTests" name="Variadic_Input_Remains_NonArray_WhenAllSame_As_Static" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticInputOutputTests.Variadic_Input_DynamicType_Null_WhenDifferentTypes" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="8e60fe04-481d-9bb0-2bf7-785c17358d8c">
+      <Execution id="8583c8a8-d088-4e56-aa99-212e35c7311b" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticInputOutputTests" name="Variadic_Input_DynamicType_Null_WhenDifferentTypes" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticInputOutputTests.Output_Set_Updates_Value_And_DynamicType" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="abab111d-d4eb-d080-6627-e340c90ae98c">
+      <Execution id="8557f30e-6956-4f86-be16-9ea3b15a6bfd" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticInputOutputTests" name="Output_Set_Updates_Value_And_DynamicType" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticNodeTests.Serialize_Includes_Value_For_NonConnected_Input" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="e87167bf-0b61-c587-ad28-0993c0bd7d5d">
+      <Execution id="eb5640ca-0a12-4ccd-8009-b66fd16d8baa" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticNodeTests" name="Serialize_Includes_Value_For_NonConnected_Input" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticNodeTests.AddInput_AddOutput_CreatesPorts" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="3294b3d2-0fdc-0d00-56db-59b8aa8761ce">
+      <Execution id="37a9ec61-488d-478e-82b6-6e9be2dfb1d9" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticNodeTests" name="AddInput_AddOutput_CreatesPorts" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.SettingValue_Same_DoesNotRaise" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="798bef3d-c877-e1e4-ae97-7ae469e3d724">
+      <Execution id="b5de55b9-b9e7-48a8-bd7f-5276a9607d97" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="SettingValue_Same_DoesNotRaise" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Deserialize_GeneratesId_WhenMissing" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="d02b2b47-5704-0b56-5716-cae1f17e833d">
+      <Execution id="c3b156e4-6a98-474b-b48b-62dbe15bc88f" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticEdgeTests" name="Edge_Deserialize_GeneratesId_WhenMissing" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.UnitTest1.Test1" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="2fd2b00e-e302-c04a-7f5f-1041b8f2c7dc">
+      <Execution id="6c000892-d342-41da-ac40-a90ac1d1b0b8" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.SetType_RaisesPropertyChanged_ForTypeAndDynamicType" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="30d081b3-a0c6-c5a1-7a9d-87f45cd0019c">
+      <Execution id="8f72d14f-3c46-4062-8d1d-beba1ff164f0" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="SetType_RaisesPropertyChanged_ForTypeAndDynamicType" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Serialize_Deserialize_Roundtrip_PreservesData" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="caa3198e-327a-b114-866b-42f715d40322">
+      <Execution id="1cb1bd78-1346-4306-9b96-ead67208fd52" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticEdgeTests" name="Edge_Serialize_Deserialize_Roundtrip_PreservesData" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticEdgeTests.Edge_Serialize_Omits_Empty_Annotations" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="81135ee9-d7d9-ade3-b47e-2c4bb5131764">
+      <Execution id="9f3758db-5c24-4387-9b0c-6f4de210a5a6" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticEdgeTests" name="Edge_Serialize_Omits_Empty_Annotations" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.SettingValue_RaisesPropertyChanged" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="e9148211-2ba7-d27c-780e-e357d9d56887">
+      <Execution id="03f4fc66-3891-45c4-9ff2-f64ca00a22a1" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="SettingValue_RaisesPropertyChanged" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticNodeTests.Run_Captures_Error_And_Duration" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="a362390a-3845-2154-795a-1ed8bb51e332">
+      <Execution id="ca4d90ce-addf-4810-ace0-1110b87e3b16" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticNodeTests" name="Run_Captures_Error_And_Duration" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.SetVisible_SameValue_DoesNotRaise" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="81cc051a-1ae1-bbf6-19ed-0b52bdcf3f75">
+      <Execution id="4121eefd-21c9-4b49-87b9-d46ae573fd4f" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="SetVisible_SameValue_DoesNotRaise" />
+    </UnitTest>
+    <UnitTest name="GraphEngine.Tests.ProgrammaticPortTests.SetVisible_RaisesPropertyChanged" storage="/home/ai/codextest/graph-engine/graphengine.tests/bin/release/net9.0/graphengine.tests.dll" id="e394b33b-cc8c-e351-c8f4-944ed5782522">
+      <Execution id="d9ce0f07-3293-488d-8bfd-94b7eeac7afa" />
+      <TestMethod codeBase="/home/ai/CodexTest/graph-engine/GraphEngine.Tests/bin/Release/net9.0/GraphEngine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GraphEngine.Tests.ProgrammaticPortTests" name="SetVisible_RaisesPropertyChanged" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1d345ca2-e3bb-52f6-f7d7-bc74d1a8f847" executionId="401a2148-2702-464a-a607-dcd75de1628c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="265fe97d-5a8d-995d-b08c-d4bd233e849d" executionId="1462489f-bf5b-4ca7-b9d4-0bfdea9b5023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caa3198e-327a-b114-866b-42f715d40322" executionId="1cb1bd78-1346-4306-9b96-ead67208fd52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30d081b3-a0c6-c5a1-7a9d-87f45cd0019c" executionId="8f72d14f-3c46-4062-8d1d-beba1ff164f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3294b3d2-0fdc-0d00-56db-59b8aa8761ce" executionId="37a9ec61-488d-478e-82b6-6e9be2dfb1d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="052da005-cf71-9e0b-1aef-20281836ba49" executionId="cc062f0b-0f82-48bb-90fc-d76d4ba29cdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b11dd8a6-014a-648c-c6d3-decc6c2e5531" executionId="13a5328c-5f52-4d9d-9010-e62e54f8cf2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fd2b00e-e302-c04a-7f5f-1041b8f2c7dc" executionId="6c000892-d342-41da-ac40-a90ac1d1b0b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9148211-2ba7-d27c-780e-e357d9d56887" executionId="03f4fc66-3891-45c4-9ff2-f64ca00a22a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d02b2b47-5704-0b56-5716-cae1f17e833d" executionId="c3b156e4-6a98-474b-b48b-62dbe15bc88f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e60fe04-481d-9bb0-2bf7-785c17358d8c" executionId="8583c8a8-d088-4e56-aa99-212e35c7311b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a362390a-3845-2154-795a-1ed8bb51e332" executionId="ca4d90ce-addf-4810-ace0-1110b87e3b16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e394b33b-cc8c-e351-c8f4-944ed5782522" executionId="d9ce0f07-3293-488d-8bfd-94b7eeac7afa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abab111d-d4eb-d080-6627-e340c90ae98c" executionId="8557f30e-6956-4f86-be16-9ea3b15a6bfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="798bef3d-c877-e1e4-ae97-7ae469e3d724" executionId="b5de55b9-b9e7-48a8-bd7f-5276a9607d97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81135ee9-d7d9-ade3-b47e-2c4bb5131764" executionId="9f3758db-5c24-4387-9b0c-6f4de210a5a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d715eff0-9264-e1a6-2755-2160d06ec646" executionId="d770e904-4263-49ae-93a9-3ebfcdcce748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81cc051a-1ae1-bbf6-19ed-0b52bdcf3f75" executionId="4121eefd-21c9-4b49-87b9-d46ae573fd4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e87167bf-0b61-c587-ad28-0993c0bd7d5d" executionId="eb5640ca-0a12-4ccd-8009-b66fd16d8baa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="18" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.8)
+[xUnit.net 00:00:00.05]   Discovering: GraphEngine.Tests
+[xUnit.net 00:00:00.08]   Discovered:  GraphEngine.Tests
+[xUnit.net 00:00:00.08]   Starting:    GraphEngine.Tests
+[xUnit.net 00:00:00.16]       Assert.Equal() Failure: Values differ
+[xUnit.net 00:00:00.16]       Expected: hello
+[xUnit.net 00:00:00.16]       Actual:   hello
+[xUnit.net 00:00:00.16]       Stack Trace:
+[xUnit.net 00:00:00.16]         /home/ai/CodexTest/graph-engine/GraphEngine.Tests/ProgrammaticNodeTests.cs(74,0): at GraphEngine.Tests.ProgrammaticNodeTests.Deserialize_Restores_Inputs_And_Values()
+[xUnit.net 00:00:00.16]            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+[xUnit.net 00:00:00.16]            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:00.16]   Finished:    GraphEngine.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="ai1" outcome="Error" timestamp="2025-08-15T18:23:13.5452580+00:00">
+        <Text>[xUnit.net 00:00:00.16]     GraphEngine.Tests.ProgrammaticNodeTests.Deserialize_Restores_Inputs_And_Values [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

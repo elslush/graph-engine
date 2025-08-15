@@ -38,6 +38,9 @@ public class Port<T> : INotifyPropertyChanged
         }
     }
 
+    // Boxed access for non-generic consumers (e.g., Node serialization)
+    public object? BoxedValue => _value;
+
     protected readonly List<Edge> _edges = new();
     public ReadOnlyCollection<Edge> Edges => _edges.AsReadOnly();
     public bool IsConnected => _edges.Count > 0;
@@ -91,4 +94,3 @@ public class Port<T> : INotifyPropertyChanged
     protected void OnPropertyChanged(string propertyName)
         => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }
-
